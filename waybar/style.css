@@ -116,19 +116,19 @@ button:hover {
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
+    background-color: transparent;
 }
 
 @keyframes blink {
     to {
         background-color: #ffffff;
-        color: #000000;
+    	color: #ffffff;
     }
 }
 
@@ -148,7 +148,7 @@ label:focus {
 
 #cpu {
     background-color: #2ecc71;
-    color: #000000;
+    color: #ffffff;
 }
 
 #memory {
@@ -164,26 +164,28 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
+    background-color: transparent;
     color: #2a5c45;
 }
 
 #wireplumber {
     background-color: #fff0f5;
-    color: #000000;
+    color: #ffffff;
 }
 
 #wireplumber.muted {
