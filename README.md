@@ -1,4 +1,4 @@
 # ~/.config
 My `~/.config` folder.  
 This include all my Linux config for Hyprland, Waybar and etc.  
-Feel free to change and use them. 
+This repo is primarily for personal backups, but it can be modified and used as you wish.
