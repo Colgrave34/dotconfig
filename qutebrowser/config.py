@@ -135,3 +135,6 @@ config.set('content.blocking.method', 'both')
 
 # Enable darktheme everywhere
 config.set('colors.webpage.darkmode.enabled', True)
+
+# Allow certain website's javascript access clipboard.
+config.set('content.javascript.clipboard', 'access')
