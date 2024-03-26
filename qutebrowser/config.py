@@ -130,10 +130,10 @@ config.set('content.local_content_can_access_remote_urls', True, 'file:///home/c
 # Type: Bool
 config.set('content.local_content_can_access_file_urls', False, 'file:///home/colgrave/.local/share/qutebrowser/userscripts/*')
 
-# Enable Brave browser adblocker
+# Enable Brave browser adblocker.
 config.set('content.blocking.method', 'both')
 
-# Enable darktheme everywhere
+# Enable darktheme everywhere.
 config.set('colors.webpage.darkmode.enabled', True)
 
 # Allow certain website's javascript access clipboard.
