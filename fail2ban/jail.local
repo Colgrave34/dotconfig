@@ -1,0 +1,5 @@
+[sshd]
+enabled = true
+
+[DEFAULT]
+bantime = 1d
