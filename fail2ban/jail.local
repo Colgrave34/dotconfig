@@ -1,4 +1,5 @@
 [DEFAULT]
+bantime.increment = true
 bantime = 1h
 backend = systemd
 
