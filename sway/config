@@ -189,6 +189,9 @@ bar {
 
 # Border Style
 default_border pixel 2
+client.focused #4c7899 #ffcc00 #ffffff #996600
+client.unfocused #000000 #1a1a1a #ffffff
+client.urgent #2f343a #ffff00 #ffffff #ffff00
 
 # Gaps
 gaps inner 6
