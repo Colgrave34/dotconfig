@@ -30,9 +30,8 @@ window#waybar {
     background: white;
 }
 
-#clock, #tray, #network, #pulseaudio, #battery {
-    padding: 0 6px;
-    margin: 0 5px;
+#clock, #tray, #network, #pulseaudio,#battery {
+    padding: 0 8px;
 }
 
 #clock:hover {
