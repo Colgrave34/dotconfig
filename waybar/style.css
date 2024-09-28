@@ -1,9 +1,9 @@
 * {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
     border: none;
     border-radius: 0;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    min-height: 0;
+    transition: none;
 }
 
 window#waybar {
@@ -13,20 +13,21 @@ window#waybar {
 
 #workspaces button {
     padding: 0 5px;
-    color: white;
+    color: inherit;
 }
 
-#workspaces button.forcused {
-    background: gray;
+#workspaces button:hover{
+    color:black;
+    background: white;
 }
-
-#workspaces button.active {
+#workspaces button.focused {
     border-top: 2px solid white;
     padding-bottom: 2px;
 }
 
 #workspaces button.urgent {
-    color: #f53c3c;
+    color: black;
+    background: white;
 }
 
 #clock, #tray, #network, #pulseaudio, #battery {
@@ -34,8 +35,24 @@ window#waybar {
     margin: 0 5px;
 }
 
-#battery.charging {
-    color: green;
+#clock:hover {
+    color: black;
+    background: white;
+}
+
+#network:hover {
+    color: black;
+    background: white;
+}
+
+#pulseaudio:hover {
+    color: black;
+    background: white;
+}
+
+#battery:hover {
+    color: black;
+    background: white;
 }
 
 @keyframes blink {
