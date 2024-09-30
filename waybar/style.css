@@ -1,8 +1,10 @@
 * {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
     border: none;
     border-radius: 0;
+    box-shadow: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-shadow: none;
     transition: none;
 }
 
@@ -12,46 +14,31 @@ window#waybar {
 }
 
 #workspaces button {
-    padding: 0 5px;
     color: inherit;
+    padding: 0 5px;
 }
 
 #workspaces button:hover{
-    color:black;
-    background: white;
+    background: gray;
 }
+
 #workspaces button.focused {
     border-top: 2px solid white;
     padding-bottom: 2px;
 }
 
 #workspaces button.urgent {
-    color: black;
     background: white;
+    color: black;
 }
 
-#clock, #tray, #network, #pulseaudio,#battery {
+#clock, #tray, #network, #pulseaudio, #battery {
+    border-radius: 20px;
     padding: 0 10px;
 }
 
-#clock:hover {
-    color: black;
-    background: white;
-}
-
-#network:hover {
-    color: black;
-    background: white;
-}
-
-#pulseaudio:hover {
-    color: black;
-    background: white;
-}
-
-#battery:hover {
-    color: black;
-    background: white;
+#clock:hover, #tray:hover, #network:hover, #pulseaudio:hover, #battery:hover {
+    background: gray;
 }
 
 @keyframes blink {
@@ -61,7 +48,7 @@ window#waybar {
 }
 
 #battery.warning:not(.charging) {
-    background: #f53c3c;
+    background: gray;
     color: white;
     animation-name: blink;
     animation-duration: 0.5s;
