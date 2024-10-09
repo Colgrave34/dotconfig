@@ -15,7 +15,6 @@ set $file alacritty -e yazi
 
 ### Output configuration
 output * bg /home/colgrave/Pictures/Wallpapers/mari-shot5-00000-copy-00000-copy.png fill
-output LVDS-1 scale 0.8
 
 ### Idle configuration
 exec swayidle -w \
