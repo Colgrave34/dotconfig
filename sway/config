@@ -29,6 +29,9 @@ exec swayidle -w \
 ### Launch notification-daemon on start
 exec /usr/bin/dunst
 
+### Launch fcitx5 on start
+exec /usr/bin/fcitx5
+
 ### Clipboard configuration
 exec wl-paste -t text --watch clipman store --no-persist
 
